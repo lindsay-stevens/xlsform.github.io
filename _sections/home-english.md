@@ -305,7 +305,9 @@ To prevent bias it is often recommended to use the [randomize feature](#randomiz
 
 ### Range
 
-To restrict integer or decimal inputs to a specific range, you can use the **range** question. This question can be used with 3 optional space-separated parameters: **start**, **end**, and **step** in a **parameters** column. The default values are 0, 10, and 1 respectively. The example below will create a question that allows input from 0 until 17 with a step of 1. Using a decimal step will result in decimal values being collected.
+To restrict integer or decimal inputs to a specific range, you can use the **range** question. This question can be used with 3 optional space-separated parameters: **start**, **end**, and **step** in a **parameters** column. The default values are 1, 10, and 1 respectively.
+
+The example below will create a question that allows input from 0 until 17 with a step of 1. Using a decimal step will result in decimal values being collected.
 
 | type                      | name         | label                         | parameters            |
 | ------------------------- | ------------ | ----------------------------- | --------------------- |
